@@ -24,11 +24,13 @@ const styles = {
     shadowOffset: { width: 3, height: 5 },
     shadowOpacity: 0.5,
     elevation: 2,
-    position: 'relative'
+    marginTop: 10
   },
   textStyle: {
-    fontSize: 30,
-
+    color: '#ddd',
+    fontSize: 50,
+    fontWeight: '400',
+    marginBottom: 10
  }
 };
 
