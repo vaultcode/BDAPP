@@ -7,7 +7,7 @@ import Button from './src/components/Button';
 //create a component
 const App = () => (
   <View style={{ flex: 1 }}>
-     <Header headerText={'BloodGroup'} />
+     <Header headerText={'BloodApp'} />
      <Button />
   </View>
   );
