@@ -7,11 +7,11 @@ const Button = ({ onPress }) => {
    return (
      <View>
      <TouchableOpacity onPress={onPress} style={buttonStyle}>
-        <Text style={textStyle}>Donate
+        <Text style={textStyle}>Donor
         </Text>
     </TouchableOpacity>
     <TouchableOpacity onPress={onPress} style={buttonStyle}>
-       <Text style={textStyle}>Request
+       <Text style={textStyle}>Receiver
        </Text>
    </TouchableOpacity>
    </View>
