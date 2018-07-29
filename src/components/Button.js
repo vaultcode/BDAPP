@@ -1,45 +1,41 @@
 import React from 'react';
-import { Text, View, TouchableOpacity } from 'react-native';
+import { Text, TouchableOpacity } from 'react-native';
 
 
 const Button = ({ onPress }) => {
   const { buttonStyle, textStyle } = styles;
    return (
-     <View>
      <TouchableOpacity onPress={onPress} style={buttonStyle}>
-        <Text style={textStyle}>Donor
+        <Text style={textStyle}>Submit
         </Text>
     </TouchableOpacity>
-    <TouchableOpacity onPress={onPress} style={buttonStyle}>
-       <Text style={textStyle}>Receiver
-       </Text>
-   </TouchableOpacity>
-   </View>
   );
 };
 
 const styles = {
   textStyle: {
     alignSelf: 'center',
-    color: '#17161b',
-    fontSize: 30,
+    color: '#ddd',
+    fontSize: 25,
     fontWeight: '500',
-    paddingTop: 10,
-    paddingBottom: 10,
-    paddingLeft: 30,
-    paddingRight: 30
+    paddingTop: 2,
+    paddingBottom: 30,
+    paddingLeft: 50,
+    paddingRight: 50
 
   },
   buttonStyle: {
     alignSelf: 'auto',
-    backgroundColor: '#ffffff',
-    borderRadius: 10,
-    borderWidth: 2,
+    backgroundColor: 'red',
+    borderRadius: 6,
+    borderWidth: 3,
     borderColor: '#ff0000',
     justifyContent: 'flex-start',
-    marginTop: 50,
-    marginLeft: 20,
-    marginRight: 20
+    marginTop: 11,
+    marginLeft: 83,
+    marginRight: 83,
+    marginBottom: 120,
+    height: 50
 
   }
 };
