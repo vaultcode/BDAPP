@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "bloodapp.app"
-               BlueprintName = "bloodapp"
-               ReferencedContainer = "container:bloodapp.xcodeproj">
+               BuildableName = "BloodApp.app"
+               BlueprintName = "BloodApp"
+               ReferencedContainer = "container:BloodApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "bloodappTests.xctest"
-               BlueprintName = "bloodappTests"
-               ReferencedContainer = "container:bloodapp.xcodeproj">
+               BuildableName = "BloodAppTests.xctest"
+               BlueprintName = "BloodAppTests"
+               ReferencedContainer = "container:BloodApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "bloodappTests.xctest"
-               BlueprintName = "bloodappTests"
-               ReferencedContainer = "container:bloodapp.xcodeproj">
+               BuildableName = "BloodAppTests.xctest"
+               BlueprintName = "BloodAppTests"
+               ReferencedContainer = "container:BloodApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "bloodapp.app"
-            BlueprintName = "bloodapp"
-            ReferencedContainer = "container:bloodapp.xcodeproj">
+            BuildableName = "BloodApp.app"
+            BlueprintName = "BloodApp"
+            ReferencedContainer = "container:BloodApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "bloodapp.app"
-            BlueprintName = "bloodapp"
-            ReferencedContainer = "container:bloodapp.xcodeproj">
+            BuildableName = "BloodApp.app"
+            BlueprintName = "BloodApp"
+            ReferencedContainer = "container:BloodApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "bloodapp.app"
-            BlueprintName = "bloodapp"
-            ReferencedContainer = "container:bloodapp.xcodeproj">
+            BuildableName = "BloodApp.app"
+            BlueprintName = "BloodApp"
+            ReferencedContainer = "container:BloodApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

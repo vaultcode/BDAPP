@@ -1,18 +1,30 @@
-//import a library yo help create a component
-import React from 'react';
-import { AppRegistry, View } from 'react-native';
-import Header from './src/components/Header';
-import Button from './src/components/Button';
-import Forms from './src/components/Forms';
+import React, { Component } from 'react';
+import { AppRegistry } from 'react-native';
+import { createStackNavigator, HeaderBackButton } from 'react-navigation';
+import Homepage from './src/components/Homepage';
+import Groupspage from './src/components/Groupspage';
+import Registerpage from './src/components/Registerpage';
 
-//create a component
-const App = () => (
-  <View style={{ flex: 1 }}>
-     <Header headerText={'Registration'} />
-     <Forms />
-     <Button />
-  </View>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <AppStackNavigator />
+    );
+  }
+}
 
-//render it to the device
-AppRegistry.registerComponent('form', () => App);
+const AppStackNavigator = createStackNavigator({
+  Home: { screen: Homepage },
+  Groups: { screen: Groupspage,
+    navigationOptions: ({ navigation }) => ({
+          headerLeft: <HeaderBackButton onPress={() => navigation.goBack(null)} />
+        })
+  },
+  Register: { screen: Registerpage,
+    navigationOptions: ({ navigation }) => ({
+          headerLeft: <HeaderBackButton onPress={() => navigation.goBack(null)} />
+        })
+      },
+});
+
+AppRegistry.registerComponent('BloodApp', () => App);
