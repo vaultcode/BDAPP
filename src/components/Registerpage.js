@@ -36,7 +36,7 @@ export default class Registerpage extends Component {
           underlineColorAndroid={'transparent'}
       />
       <TouchableOpacity
-      style={buttonStyle}
+      style={buttonStyle} onPress={() => this.props.navigation.navigate('Verify')}
       >
      <Text
        style={textStyle}
@@ -62,13 +62,13 @@ const styles = {
   buttonStyle: {
     alignSelf: 'auto',
     backgroundColor: 'white',
-    borderRadius: 10,
+    borderRadius: 20,
     borderWidth: 3,
     borderColor: '#ff0000',
     justifyContent: 'flex-start',
     marginTop: 11,
-    marginLeft: 83,
-    marginRight: 83,
+    marginLeft: 80,
+    marginRight: 80,
     marginBottom: 120,
     height: 50
   },
@@ -77,7 +77,7 @@ const styles = {
     color: 'black',
     fontSize: 25,
     fontStyle: 'italic',
-    fontWeight: '460',
+    fontWeight: '100',
     paddingTop: 5,
     paddingBottom: 30,
     paddingLeft: 50,
