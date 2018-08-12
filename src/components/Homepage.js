@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, ScrollView, TouchableOpacity } from 'react-native';
+import { Text, ScrollView, TouchableHighlight } from 'react-native';
 
 export default class Homepage extends Component {
   render() {
@@ -10,21 +10,25 @@ export default class Homepage extends Component {
         backgroundColor: '#FF0000',
 
     }}>
-       <TouchableOpacity
+       <TouchableHighlight
+       onPress={this.onPressButton}
+       underlayColor={'skyblue'}
        style={buttonStyle} onPress={() => this.props.navigation.navigate('Groups')}
        >
       <Text
         style={textStyle}
       >Donor</Text>
-      </TouchableOpacity>
+      </TouchableHighlight>
 
-      <TouchableOpacity
+      <TouchableHighlight
+      onPress={this.onPressButton}
+      underlayColor={'skyblue'}
       style={buttonStyle} onPress={() => this.props.navigation.navigate('Groups')}
       >
      <Text
        style={textStyle}
      >Receiver</Text>
-     </TouchableOpacity>
+     </TouchableHighlight>
    </ScrollView>
 
     );
@@ -46,6 +50,11 @@ const styles = {
   },
   buttonStyle: {
     alignSelf: 'auto',
+    shadowColor: 'black',
+    shadowOpacity: 1,
+    elevation: 10,
+    shadowRadius: 15,
+    shadowOffset: { width: 56, height: 13 },
     backgroundColor: '#ffffff',
     borderRadius: 20,
     borderWidth: 2,
