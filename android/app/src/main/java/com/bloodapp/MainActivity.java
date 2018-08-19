@@ -2,6 +2,7 @@ package com.bloodapp;
 
 import com.facebook.react.ReactActivity;
 
+
 public class MainActivity extends ReactActivity {
 
     /**
@@ -10,6 +11,8 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "BloodApp";
+        return "Bloodapp";
+
     }
+
 }

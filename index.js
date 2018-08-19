@@ -4,7 +4,8 @@ import { createStackNavigator } from 'react-navigation';
 import Homepage from './src/components/Homepage';
 import Groupspage from './src/components/Groupspage';
 import Registerpage from './src/components/Registerpage';
-import Verifypage from './src/components/Verifypage';
+import Location from './src/components/Location';
+
 
 export default class App extends Component {
   render() {
@@ -88,9 +89,9 @@ const AppStackNavigator = createStackNavigator({
      },
    })
   },
-  Verify: { screen: Verifypage,
+  Location: { screen: Location,
     navigationOptions: () => ({
-     title: 'VERIFICATION',
+     title: 'SELECT GROUP',
      headerStyle: {
        backgroundColor: '#FF0000',
        borderWidth: 0.30,
