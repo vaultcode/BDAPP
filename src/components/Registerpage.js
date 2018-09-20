@@ -36,7 +36,7 @@ export default class Registerpage extends Component {
           underlineColorAndroid={'transparent'}
       />
       <TouchableOpacity
-      style={buttonStyle} onPress={() => this.props.navigation.navigate('Verify')}
+      style={buttonStyle} onPress={() => this.props.navigation.navigate('Location')}
       >
      <Text
        style={textStyle}
